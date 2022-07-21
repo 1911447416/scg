@@ -1,0 +1,19 @@
+//
+//  TemplateController.swift
+//  Test
+//
+//  Created by ak on 2022/6/4.
+//
+
+import Foundation
+
+
+class <%ClassName%>Controller: NSObject {
+    
+    func requestData() {
+        
+        //网络请求
+        
+    }
+    
+}
