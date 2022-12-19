@@ -16,7 +16,7 @@ MacOS
 
 ```
 $ ./scg --help
-usage: scg [-c classname] [-o OutputPath] [-t TemplatePath] [-o OUTPUT]
+usage: scg  <-t TemplatePath> <-o OutputPath> <-c classname>
 
 Usage of scg:
   -c string
@@ -26,6 +26,8 @@ Usage of scg:
   -t string
     	template path
 ```
+
+- 注意：三个参数都须输入
 
 #### 示例
 
