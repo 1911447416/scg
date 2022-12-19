@@ -6,10 +6,16 @@
 
 MacOS
 
+#### 如何安装
+
+- 方法一 使用brew安装scg`brew install chyugo/tap/scg`
+
+- 方法二 clone 当前仓库
+
 #### 如何使用
 
 ```
-$ scg
+$ ./scg --help
 usage: scg [-c classname] [-o OutputPath] [-t TemplatePath] [-o OUTPUT]
 
 Usage of scg:
@@ -23,8 +29,8 @@ Usage of scg:
 
 #### 示例
 
-模板文件存放在 `/Users/AAA/Desktop/scg/template`，想将文件名和内容里面的`<%ClassName%>`替换成`abc`，输出到 `/Users/AAA/Desktop/scg/template/outPath`
+终端cd到当前scg所在的目录，模板文件存放在 `/Users/AAA/Desktop/scg/template`，想将文件名和内容里面的`<%ClassName%>`替换成`abc`，输出到 `/Users/AAA/Desktop/scg/template/outPath`
 
 
 
-`scg -t /Users/AAA/Desktop/scg/template -o /Users/AAA/Desktop/scg/template/outPath -c abc`
+`./scg -t /Users/AAA/Desktop/scg/template -o /Users/AAA/Desktop/scg/template/outPath -c abc`
